@@ -1,5 +1,5 @@
 {
-  "name": "dall-e-generate-and-download-img",
+  "name": "dalle-generate-and-download",
   "version": "1.0.0",
   "description": "Generate, download, and save images from Dall-E in a simple way",
   "main": "index.js",
