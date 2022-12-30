@@ -120,4 +120,4 @@ class DallERunner {
   }
 }
 
-exports = DallERunner;
+module.exports = DallERunner;
