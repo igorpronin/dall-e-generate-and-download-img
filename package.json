@@ -2,12 +2,14 @@
   "name": "dalle-generate-and-download",
   "version": "1.0.0",
   "description": "Generate, download, and save images from Dall-E in a simple way",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "clean": "rm -rf build",
+    "build": "npm run clean && mkdir build && cp src/**.* build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "index.js"
+    "build/**/*"
   ],
   "keywords": [],
   "author": "igorpronin",
